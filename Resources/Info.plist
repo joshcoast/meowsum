@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Meowsum</string>
+    <key>CFBundleDisplayName</key>
+    <string>Meowsum</string>
+    <key>CFBundleExecutable</key>
+    <string>Meowsum</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.personal.meowsum</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/1 Paragraph</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>paragraphs:1</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/3 Paragraphs</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>paragraphs:3</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/5 Paragraphs</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>paragraphs:5</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/1 Sentence</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>sentences:1</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/3 Sentences</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>sentences:3</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/5 Words</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>words:5</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/10 Words</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>words:10</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/5-Word Title</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>title:5</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/Random Name</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>name</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/Random Link</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>link</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/Random Link (HTML)</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>link:html</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Meowsum/Random Date</string></dict>
+            <key>NSMessage</key><string>generateText</string>
+            <key>NSPortName</key><string>Meowsum</string>
+            <key>NSUserData</key><string>date</string>
+            <key>NSReturnTypes</key><array><string>NSStringPboardType</string></array>
+        </dict>
+    </array>
+</dict>
+</plist>

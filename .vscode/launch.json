@@ -1,0 +1,24 @@
+{
+	"configurations": [
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:meowsum}",
+			"name": "Debug Meowsum",
+			"target": "Meowsum",
+			"configuration": "debug",
+			"preLaunchTask": "swift: Build Debug Meowsum"
+		},
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:meowsum}",
+			"name": "Release Meowsum",
+			"target": "Meowsum",
+			"configuration": "release",
+			"preLaunchTask": "swift: Build Release Meowsum"
+		}
+	]
+}
